@@ -74,7 +74,12 @@ print("Read Complete.")
 
 # Load Model and Tokenizer
 print("Loading the models for classification.")
-model="kabir5297/ResumeClassificationNew"
+if not os.path.exists("Model"):
+    print("The offline model file couldn't be loaded. Loading from Huggingface.")
+    print("This requires internet connection")
+    model="kabir5297/ResumeClassificationNew"
+else:
+    model="Model"
 model= AutoModelForSequenceClassification.from_pretrained(model)
 tokenizer = AutoTokenizer.from_pretrained("xlnet-base-cased") # The tokenizer from the model for some unknown reason is not working. So we're using the xlnet tokenizer instead.
 data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
