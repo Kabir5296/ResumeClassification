@@ -1,6 +1,6 @@
 # Resume Classification
-## By A F M Mahfuzul Kabir
-## Model fine tuned with XLNet base model, using the dataset https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
+### By A F M Mahfuzul Kabir
+### Model fine tuned with XLNet base model, with [this](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset) dataset.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 To use, first install all the dependancies in your kernel using the following commands.
