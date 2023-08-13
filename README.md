@@ -16,6 +16,8 @@ You can also install them using the wheels provided in this repository. Just dow
 #### pip install Wheels/textract/*.whl
 #### pip install Wheels/transformers/*.whl
 
+Internet Connection is a must for the model to be loaded. Github doesn't allow uploading files over 100MB, so I couldn't upload the model here. The [model](https://huggingface.co/kabir5297/ResumeClassificationNew/tree/main) is in huggingface.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Run the script.py in your terminal and you should be good to go.
