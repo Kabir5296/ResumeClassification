@@ -1,0 +1,9 @@
+- Data read from the given CSV.
+- Cleaned punctuations from the data.
+- Cleaned stopwords from the data using nltk stopwords.
+- Loaded tokenizer and base XLNet model for fine-tuning.
+- Trained the model for classification task.
+- The training script used is available in the base repository.
+
+PS: I noticed a huge imbalance in the dataset where some classes had almost one-tenth of the data compared to some others.
+I was planning on dealing with that using augmentations, scaling etc. But couldn't manage the time.
