@@ -1,4 +1,7 @@
-# ResumeClassification
+# Resume Classification
+## By A F M Mahfuzul Kabir
+## Model fine tuned with XLNet base model, using the dataset https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 To use, first install all the dependancies in your kernel using the following commands.
 
@@ -11,3 +14,7 @@ You can also install them using the wheels provided in this repository. Just dow
 #### pip install Wheels/pytest-shutil/*.whl
 #### pip install Wheels/textract/*.whl
 #### pip install Wheels/transformers/*.whl
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run the script.py in your terminal and you should be good to go.
