@@ -2,6 +2,12 @@
 - Cleaned punctuations from the data.
 - Cleaned stopwords from the data using nltk stopwords.
 - Loaded tokenizer and base XLNet model for fine-tuning.
+- I splitted data into multiple data. The main reason behind is, the model can't take input of size more than 512 from the tokenized data. However, after tokenization, I noticed that almost all 
+data are more than 512 in size. So truncating them to 512 would cost me loss of significant amount of training data. So I splitted each data into multiple data, each less than 128 in size once tokenized.
+That resulted in a dataset of 24k+. I used this splitted dataset to train the model.
+- My initial plan was to make multiple folds of tha data and train multiple models with each fold. After that, combining all those models together should theoretically result in a better and robust
+model. However, I couldn't manage the time to do this specific task. So I trained one single model with all of the training data.
+- I splitted the dataset into training test and evaluation set.
 - Trained the model for classification task.
 - The training script used is available in the base repository.
 
