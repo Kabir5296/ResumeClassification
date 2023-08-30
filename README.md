@@ -1,6 +1,5 @@
 # Resume Classification
 ### A F M Mahfuzul Kabir
-### This model is built for the evaluation of Machine Learning Engineer position at Interactive Care.
 ### Model fine tuned with XLNet base model, with [this](https://www.kaggle.com/datasets/snehaanbhawal/resume-dataset) dataset.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
